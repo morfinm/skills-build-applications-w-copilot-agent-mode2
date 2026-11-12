@@ -5,7 +5,7 @@ type Activity = {
   minutes?: number;
   points?: number;
 };
-
+//fixed
 export default function Activities() {
   return (
     <CapabilityCard
