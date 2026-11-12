@@ -9,7 +9,7 @@ type Props<T> = {
   mapData: (payload: Record<string, unknown>) => T[];
   renderItem: (item: T, index: number) => ReactNode;
 };
-
+//fixed
 export function CapabilityCard<T>({ title, description, endpoint, emptyText, mapData, renderItem }: Props<T>) {
   const [items, setItems] = useState<T[]>([]);
   const [loading, setLoading] = useState(true);
